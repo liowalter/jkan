@@ -1,5 +1,5 @@
 # JKAN 
-A lightweight, backend-free open data portal, powered by Jekyll
+A lightweight, backend-free open data portal, powered by Jekyll.
 
 Open-source data portals can be really hard to install and maintain. But their
 basic purpose of providing links to download data really isn't that complicated. JKAN is a proof-of-concept
