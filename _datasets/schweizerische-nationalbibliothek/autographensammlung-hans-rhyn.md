@@ -1,0 +1,13 @@
+---
+schema: default
+title: 'Autographensammlung Hans Rhyn'
+organization: 'Schweizerische Nationalbibliothek'
+
+resources:
+  - name: 'Autographensammlung Hans Rhyn'
+    url: 'https://opendata.swiss/en/dataset/autographensammlung-hans-rhyn'
+category:
+  - Documents
+data_host:
+  - 'opendata.swiss'
+---

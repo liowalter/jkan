@@ -17,6 +17,12 @@ dataset_fields:
     label: Category
     display_template: display/category.html
     datajson: category
+  - field_name: data_host
+    label: Data Host
+    datajson: data_host
+  - field_name: year_added
+    label: Added in
+    datajson: year_added
   - field_name: maintainer
     label: Maintainer
     datajson: contactPoint.fn
