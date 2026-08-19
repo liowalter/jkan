@@ -1,8 +1,8 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
+title: Swiss Heritage Data
+greeting: Swiss Heritage Data
+description: Browse Open Cultural Datasets from Swiss Institutions
 logo: /img/jkan.png
-hero_image: /img/homepage-hero.jpg
+hero_image: /img/OpenGLAMlogo.png
 strict_front_matter: true
 
 # Site theme
