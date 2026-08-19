@@ -1,14 +1,28 @@
-# JKAN 
-A lightweight, backend-free open data portal, powered by Jekyll.
+# Swiss Open GLAM Data
 
-Open-source data portals can be really hard to install and maintain. But their
-basic purpose of providing links to download data really isn't that complicated. JKAN is a proof-of-concept
-that allows a small, resource-strapped government agency to stand-up an open data portal by simply
-[clicking the fork button](https://help.github.com/articles/fork-a-repo/).
+## Hints for adding new datasets
+
+- Add yml file inside _datasets
+- Use subfolder with institution name in English
+- The url is defined by the yml file name
+- 
+
+
+## Software behind the tool : JKAN
+
+The software used for display is called [JKAN](https://jkan.io), A lightweight, backend-free open data portal, powered by Jekyll.
 
 [Demo site](https://demo.jkan.io)
 
-## Documentation
+
+### Build locally
+
+```shell
+docker compose up
+```
+And open it on http://127.0.0.1:4000
+
+### Documentation
 * [Installation](docs/installation.md)
 * [Upgrading](docs/upgrading.md)
 * [Schema customization](docs/schema-customization.md)

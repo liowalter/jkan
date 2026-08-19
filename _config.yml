@@ -15,22 +15,12 @@ schema: default
 navigation:
   - title: Datasets
     url: /datasets/
-  - title: Organizations
-    url: /organizations/
-  - title: Categories
-    url: /categories/
 
 # Collections
 collections:
   datasets:
     output: true
     permalink: /datasets/:path/
-  organizations:
-    output: true
-    permalink: /organizations/:path/
-  dataset_categories:
-    output: true
-    permalink: /categories/:path/
 
 # Collections (cont'd)
 defaults:

@@ -1,3 +1,7 @@
+:root {
+  --bs-primary: #b8a321;
+}
+
 input[data-hook=search-query] {
   display: none;
 }
@@ -20,6 +24,19 @@ dataset {
   border-bottom: 1px #d6d6d6 solid;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+dataset a {
+  text-decoration: none;
+  color: #8d7820;
+}
+
+dataset a:hover {
+  color: #b8a321;
+}
+
+.bg-primary {
+  background-color: #b8a321 !important;
 }
 
 .list-group-item-truncate {
